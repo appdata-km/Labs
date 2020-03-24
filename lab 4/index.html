@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<meta charset="UTF-8">
+	</head>
+
+<body>
+	<form action="handler.php" enctype="multipart/form-data">
+   	<input type="text" name="textForm" required="required">
+    		<select name="sequence">
+       			<option value=""></option>
+       			<option value="number1">First</option>
+        		<option value="number2">Second</option>
+        		<option value="number3">Third</option>
+    		</select>
+    	<br>
+    		<input type="file" name="UpFile">
+    	<br><br>
+    		<button type="submit" formmethod="POST">Upload POST</button><br>
+    		<button type="submit" formmethod="GET">Upload GET</button>
+    	</form>
+</body>
+</html>
